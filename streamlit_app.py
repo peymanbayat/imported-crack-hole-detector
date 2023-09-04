@@ -13,7 +13,7 @@ from git import Repo
 @st.experimental_singleton
 def loadModel():
     start_dl = time.time()
-    Repo.clone_from("clone yolov7 github repository')
+    #Repo.clone_from("clone yolov7 github repository')
     os.chdir('yolov7')
     yolo_model=requests.get("custom yolo model weights.pt file")
     with open("best.pt", 'wb')as file:
