@@ -1,3 +1,4 @@
+yolov7
 torch
 torchvision
 datetime
@@ -16,5 +17,3 @@ pycocotools
 albumentations
 tensorflowjs
 seaborn
-
-
